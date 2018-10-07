@@ -5,13 +5,16 @@ package com.example;
  */
 public class Greeter {
 
+private Int col = 1;
   /**
    * This is a constructor.
    */
   public Greeter() {
   }
 
-public String Greeter(String alguien) {
+public String Greeter(String alguien) 
+
+{
   	return String.format("hola elenote, %s", alguien);
   }
 
