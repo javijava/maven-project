@@ -5,12 +5,11 @@ package com.example;
  */
 public class Greeter {
 
-private Int col = 1;
+private String col = "javiro";
   /**
    * This is a constructor.
    */
-  public Greeter() {
-  }
+  public Greeter() {}
 
 public String Greeter(String alguien) 
 
