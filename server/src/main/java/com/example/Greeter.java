@@ -9,7 +9,10 @@ public class Greeter {
    * This is a constructor.
    */
   public Greeter() {
-  	return String.format("hola elenote, %s", "puto");
+  }
+
+public String Greeter(String alguien) {
+  	return String.format("hola elenote, %s", alguien);
   }
 
   //TODO: Add javadoc comment
