@@ -5,17 +5,17 @@ package com.example;
  */
 public class Greeter {
 
-private String coles = "javiro";
+	private String coles = "javiro";
 
-public Greeter() {
+	public Greeter() {
 
-}
+	}
 
-public String Greeter(String alguien) {
-  	return String.format("hola elenote, %s", coles);
-  }
+	public String Greeter(String alguien) {
+		return String.format("hola elenote, %s", coles);
+	}
 
-public String greet(String someone) {
-    return String.format("Hello, %s!", someone);
-  }
+	public String greet(String someone) {
+		return String.format("Hello, %s!", someone);
+	}
 }
