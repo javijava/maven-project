@@ -1,3 +1,6 @@
+/**
+ * Info about this package doing something for package-info.java file.
+ */
 package com.example;
 
 /**
@@ -5,17 +8,15 @@ package com.example;
  */
 public class Greeter {
 
-	private String coles = "javiro";
-
 	public Greeter() {
 
 	}
 
-	public String Greeter(String alguien) {
-		return String.format("hola elenote, %s", coles);
-	}
-
-	public String greet(String someone) {
+	/**
+	 * @param someone
+	 * @return String
+	 */
+	public final String greet(final String someone) {
 		return String.format("Hello, %s!", someone);
-	}
+	}	
 }
