@@ -8,6 +8,9 @@ package com.example;
  */
 public class Greeter {
 
+	/**
+	* Another constructor for class Time1
+	*/
 	public Greeter() {
 
 	}
@@ -18,5 +21,6 @@ public class Greeter {
 	 */
 	public final String greet(final String someone) {
 		return String.format("Hello, %s!", someone);
-	}	
+	}
+	
 }
